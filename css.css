@@ -1,0 +1,120 @@
+@font-face{
+	font-family: BebasNeue;
+	src: url(fonts/BebasNeue.otf);
+}
+
+@media screen and (max-width: 1080px;) {
+  .background { max-width: 100%; }
+}
+
+/* General */
+*{
+	margin: 0;
+	border-style: none;
+	border-width: 0;
+	padding: 0;
+}
+html{
+	background-color: white;
+}
+
+/* Pages */
+section{
+	position: fixed;
+	top:0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+.background{
+	display: inline;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100vw;
+	z-index: -1;
+	position: absolute;
+}
+
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+
+h1{
+	font-family: BebasNeue;
+	font-size: 10vmin;
+	text-align: center;
+	margin-top: 15vh;
+	margin-left: 13vw;
+	margin-right: 13vw;
+	color: white;
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	-webkit-transform:scaleX(-1);
+	transform:scaleX(-1);
+	filter:FlipH;
+	display: block;
+	z-index: 0;
+	position: absolute;
+}
+
+/* Navigation */
+
+nav{
+	position: fixed;
+	margin-top: 60vh;
+	width: 100vw;
+	height: 10vh;
+
+}
+
+button{
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center; 
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: rgb(148,205,182);
+	height: 10vh;
+	width: 30vw;
+	float: left;
+	font-family: BebasNeue;
+	font-size: 8vmin;
+	color: white;
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	-webkit-transform:scaleX(-1);
+	transform:scaleX(-1);
+	filter:FlipH;
+}
+
+#no{
+	margin-left: 15vw;
+}
+#yes{
+	margin-left: 10vw;
+	margin-right: 15vw;
+}
+#start{
+	position: fixed;
+	margin-top: 45vh;
+	width: 50vw;
+	height: 10vh;
+	margin-left: 25vw;
+}
+
+.down{
+	background-color: grey;
+}
+.up{
+	background-color: rgb(148,205,182);
+}
+
+/* Content */
+
+
+
